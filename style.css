@@ -526,3 +526,8 @@
   transform: scale(1.5);
   padding: 10px;
 }
+
+#ps {
+  color:rgb(8, 199, 199);
+  text-align: center;
+}
