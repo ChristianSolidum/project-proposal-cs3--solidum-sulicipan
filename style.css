@@ -523,4 +523,5 @@
 #info {
   align-items: center;
   text-align: center;
+  transform: scale(5);
 }
