@@ -33,38 +33,36 @@ The site will specifically feature the “Celebration of Upcoming Christmas Seas
 
 ## 4. UPDATE FOR USER SUBMISSION:
 
-**Updated for  –** 
-Update the readme.md file of your project repository to contain the following (this update plan should be shown at the beginning of the readme.md file:
+**Updates for User Submission with the other addtional pages–** 
+	We still have the data collection page this time, which collects basic personal information about the user, but we will completely change this part. We are going to make it so that this page will become an HTML form and have the function to collect and save the data inputted by the user. This will be added so that our website will look more complete and professional, which also comes with being functional. We will also add another page that will calculate the prices for your donations. Although this function already exists in existing pages, it is more convenient to skip the descriptions of all pages and go straight to the calculations when you need it, rather than to go through all of those pages.
 
-A minimum of two paragraph summary description of the updates that will be done on your project  to include persistent data (or data to be saved on the server) that is related to your website and how this saved data will be used also inside your web application. A minimum of two web pages should be added or updated (Clear, Concise, Comprehensive, Appropriate, and logical). (5pts)
+	Overall, our updates to our website will help make it more professional with the help of using an HTML form to collect data. It will also be easier to use and access our services for calculating the prices of the users’ donations, as well as the modes of payment. We have chosen to keep it simple and only add a few modifications as for the most part, we think that our website is almost complete.
 
-The following are included in the submission:
+Page 1:
 
-The type of data and its purpose to be saved and its structure in a text-based JSON format.  Create several of the following example, depending on the requirements of creating, maintaining, manipulating the data (10pts). 
-
-ex. 
-
-Type of data: User account login data
-purpose: for logging it to the site and enjoy special privileges in the site
+Type of data: User data collection
+purpose: for gathering the basic personal information of the user
 structure in JSON format:
 account {
-   username: text-string,
    name: text-string,
    dob: date,
-   password: text-string,
    email: email-formatted-text-string,
-   profile: text-link-to-the-uploaded-pix
+   mobile#: number
 }
 
-Wireframe design to implement full CRUD (Create, Read, Update, Delete) on the data described above (10pts) 
+Page 2:
 
-shows the UI to capture the data described above in full CRUD implementation.
+{
+  donation: {
+    item_type: text-string,
+    quantity: number,
+    value_per_item: number,
+    total_value: number
+  }
+}
 
-shows the UI also of the type of information to be derived from the data saved inside the server
-
-example for User’s Account
-
-Name of User / Profile Picture on every page of the web application
+NOTE FOR THE WIREFRAME YOU MAY SEE A PICTURE OF IT IN THE GDOCS ATTACHED BELOW AS WE CANNOT
+ACCURETALY SHOW THE WIREFRAME UI THRU README.md
 
 
 
