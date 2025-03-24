@@ -31,7 +31,45 @@ The site will specifically feature the “Celebration of Upcoming Christmas Seas
 
 **6th page –** The "Cultural Immersion and Giving Back to Aeta Communities" page will provide an overview of a unique opportunity for participants to connect with the Aeta people while making a difference. The page will outline how families and groups can spend a day immersed in the Aeta’s rich cultural traditions, while also contributing much-needed supplies like food, educational materials, and health kits. Testimonials and photographs from previous events will illustrate the lasting memories and meaningful connections made, emphasizing how this event combines learning, cultural exchange, and community support. A clear call to action will allow users to sign up, with a fee of PHP XXX per participant, and input group sizes for automatic cost calculations. The page will include links to other events and the homepage for further exploration of charitable opportunities.
 
-## 4. LINKS AND MORE EXRAS:
+## 4. UPDATE FOR USER SUBMISSION:
+
+**Updated for  –** 
+Update the readme.md file of your project repository to contain the following (this update plan should be shown at the beginning of the readme.md file:
+
+A minimum of two paragraph summary description of the updates that will be done on your project  to include persistent data (or data to be saved on the server) that is related to your website and how this saved data will be used also inside your web application. A minimum of two web pages should be added or updated (Clear, Concise, Comprehensive, Appropriate, and logical). (5pts)
+
+The following are included in the submission:
+
+The type of data and its purpose to be saved and its structure in a text-based JSON format.  Create several of the following example, depending on the requirements of creating, maintaining, manipulating the data (10pts). 
+
+ex. 
+
+Type of data: User account login data
+purpose: for logging it to the site and enjoy special privileges in the site
+structure in JSON format:
+account {
+   username: text-string,
+   name: text-string,
+   dob: date,
+   password: text-string,
+   email: email-formatted-text-string,
+   profile: text-link-to-the-uploaded-pix
+}
+
+Wireframe design to implement full CRUD (Create, Read, Update, Delete) on the data described above (10pts) 
+
+shows the UI to capture the data described above in full CRUD implementation.
+
+shows the UI also of the type of information to be derived from the data saved inside the server
+
+example for User’s Account
+
+Name of User / Profile Picture on every page of the web application
+
+
+
+
+## 5. LINKS AND MORE EXRAS:
 
 **LINKS TO GOOGLE DOC AND CANVA –** Please see here the link for our wireframe thru this canva link: https://www.canva.com/design/DAGVDxZMR3E/jkuLhjWDJQRdLbmaKSkwwQ/edit?utm_content=DAGVDxZMR3E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton.
 Attached here as well is the link to our google docs for a more detailed explanation to our website: https://docs.google.com/document/d/1aClgLvdn0jS8csTRbqNiNWOaw6rClAOU/edit?usp=sharing&ouid=115853248919223049067&rtpof=true&sd=true.
